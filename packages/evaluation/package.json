@@ -18,7 +18,7 @@
     "test": "vitest run"
   },
   "devDependencies": {
-    "typescript": "workspace:*",
-    "vitest": "workspace:*"
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
   }
 }

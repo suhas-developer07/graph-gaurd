@@ -1,5 +1,5 @@
 {
-  "name": "@graphguard/llm",
+  "name": "@graphguard/domain",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -14,15 +14,12 @@
   "scripts": {
     "build": "tsc",
     "typecheck": "tsc --noEmit",
-    "dev": "tsc --watch",
-    "test": "vitest run"
+    "dev": "tsc --watch"
   },
   "dependencies": {
     "zod": "^3.23.0"
   },
   "devDependencies": {
-    "@types/node": "^22.0.0",
-    "typescript": "^5.6.0",
-    "vitest": "^2.1.0"
+    "typescript": "^5.6.0"
   }
 }

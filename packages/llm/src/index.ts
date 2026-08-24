@@ -1,5 +1,16 @@
-/**
- * LLM Provider Abstraction - Groq/Gemini adapters.
- * Built in Phase 2.
- */
-export const LLM_VERSION = "0.1.0";
+export type {
+  LLMProvider,
+  ChatMessage,
+  CompleteRequest,
+  CompleteResponse,
+  EmbedRequest,
+  EmbedResponse,
+} from "./types";
+export { GroqProvider } from "./providers/groq";
+export { GeminiEmbeddingsProvider } from "./providers/gemini";
+export {
+  createGroqProvider,
+  createGeminiProvider,
+  createMockProvider,
+} from "./factory";
+export type { LLMCallRecorder } from "./factory";

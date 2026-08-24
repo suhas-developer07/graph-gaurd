@@ -17,8 +17,16 @@
     "dev": "tsc --watch",
     "test": "vitest run"
   },
+  "dependencies": {
+    "@graphguard/domain": "workspace:*",
+    "@graphguard/llm": "workspace:*",
+    "@graphguard/db": "workspace:*",
+    "@graphguard/config": "workspace:*",
+    "zod": "^3.23.0"
+  },
   "devDependencies": {
-    "typescript": "workspace:*",
-    "vitest": "workspace:*"
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
   }
 }

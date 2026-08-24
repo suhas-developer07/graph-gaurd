@@ -124,6 +124,9 @@ importers:
         specifier: ^3.23.0
         version: 3.25.76
     devDependencies:
+      '@types/node':
+        specifier: ^22.0.0
+        version: 22.20.1
       typescript:
         specifier: ^5.6.0
         version: 5.9.3
@@ -147,6 +150,16 @@ importers:
         specifier: ^5.6.0
         version: 5.9.3
 
+  packages/domain:
+    dependencies:
+      zod:
+        specifier: ^3.23.0
+        version: 3.25.76
+    devDependencies:
+      typescript:
+        specifier: ^5.6.0
+        version: 5.9.3
+
   packages/evaluation:
     devDependencies:
       typescript:
@@ -157,7 +170,26 @@ importers:
         version: 2.1.9(@types/node@22.20.1)
 
   packages/graph-engine:
+    dependencies:
+      '@graphguard/config':
+        specifier: workspace:*
+        version: link:../config
+      '@graphguard/db':
+        specifier: workspace:*
+        version: link:../db
+      '@graphguard/domain':
+        specifier: workspace:*
+        version: link:../domain
+      '@graphguard/llm':
+        specifier: workspace:*
+        version: link:../llm
+      zod:
+        specifier: ^3.23.0
+        version: 3.25.76
     devDependencies:
+      '@types/node':
+        specifier: ^22.0.0
+        version: 22.20.1
       typescript:
         specifier: ^5.6.0
         version: 5.9.3
@@ -166,7 +198,14 @@ importers:
         version: 2.1.9(@types/node@22.20.1)
 
   packages/llm:
+    dependencies:
+      zod:
+        specifier: ^3.23.0
+        version: 3.25.76
     devDependencies:
+      '@types/node':
+        specifier: ^22.0.0
+        version: 22.20.1
       typescript:
         specifier: ^5.6.0
         version: 5.9.3
