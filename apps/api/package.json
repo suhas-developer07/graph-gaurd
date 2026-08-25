@@ -12,7 +12,9 @@
   "dependencies": {
     "@graphguard/config": "workspace:*",
     "@graphguard/db": "workspace:*",
+    "@graphguard/evaluation": "workspace:*",
     "@graphguard/observability": "workspace:*",
+    "@graphguard/regression": "workspace:*",
     "fastify": "^5.1.0",
     "@fastify/cors": "^10.0.0",
     "redis": "^4.7.0"

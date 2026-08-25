@@ -133,11 +133,14 @@ export async function runEvaluation(
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 
+let runIdCounter = 0;
+
 export function createRunId(): string {
   const now = new Date();
   const dateStr = now.toISOString().slice(0, 10);
   const timeStr = now.getTime().toString(36);
-  return `eval-${dateStr}-${timeStr}`;
+  runIdCounter++;
+  return `eval-${dateStr}-${timeStr}-${runIdCounter}`;
 }
 
 /**

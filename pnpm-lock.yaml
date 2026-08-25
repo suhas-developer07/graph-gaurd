@@ -45,9 +45,15 @@ importers:
       '@graphguard/db':
         specifier: workspace:*
         version: link:../../packages/db
+      '@graphguard/evaluation':
+        specifier: workspace:*
+        version: link:../../packages/evaluation
       '@graphguard/observability':
         specifier: workspace:*
         version: link:../../packages/observability
+      '@graphguard/regression':
+        specifier: workspace:*
+        version: link:../../packages/regression
       fastify:
         specifier: ^5.1.0
         version: 5.12.1
@@ -252,6 +258,10 @@ importers:
         version: 5.9.3
 
   packages/regression:
+    dependencies:
+      '@graphguard/evaluation':
+        specifier: workspace:*
+        version: link:../evaluation
     devDependencies:
       typescript:
         specifier: ^5.6.0

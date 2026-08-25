@@ -22,6 +22,10 @@ async function main() {
     origin: env.NODE_ENV === "development" ? true : false,
   });
 
+  // Register regression and release gate routes
+  const { registerRegressionRoutes } = await import("./routes/regressions");
+  await registerRegressionRoutes(app);
+
   // Health check - process is alive
   app.get("/health", async (_request, reply) => {
     return reply.status(200).send({
