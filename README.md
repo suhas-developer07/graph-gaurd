@@ -110,6 +110,7 @@ See [`.env.example`](.env.example) for all required environment variables.
 - **LLM:** Groq (text), Gemini (embeddings)
 - **Observability:** OpenTelemetry
 - **Testing:** Vitest
+freebuff --continue 2026-08-24T18-36-37.980Z
 
 ## License
 

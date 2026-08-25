@@ -1,0 +1,151 @@
+{
+  "product": {
+    "name": "NeuroCalm",
+    "genericName": "Calmisetinib",
+    "class": "Anxiolytic (SSRI-adjacent)",
+    "indication": "Moderate generalized anxiety disorder (GAD) in adults",
+    "disclaimer": "This is a FICTIONAL pharmaceutical product created for an engineering portfolio demo. It has no clinical or regulatory basis."
+  },
+  "knowledge": [
+    {
+      "id": "nc-001",
+      "category": "indications",
+      "title": "Approved Indications",
+      "content": "NeuroCalm (calmisetinib) is indicated for the treatment of moderate generalized anxiety disorder (GAD) in adults aged 18-65. It is not approved for pediatric use, severe anxiety, or panic disorder.",
+      "source": "NeuroCalm Prescribing Information, Section 1"
+    },
+    {
+      "id": "nc-002",
+      "category": "dosage",
+      "title": "Recommended Dosage",
+      "content": "The recommended starting dose of NeuroCalm is 10mg once daily, taken orally in the morning with or without food. The dose may be increased to 20mg once daily after 4 weeks if clinically indicated. Maximum recommended dose is 20mg/day.",
+      "source": "NeuroCalm Prescribing Information, Section 2"
+    },
+    {
+      "id": "nc-003",
+      "category": "dosage",
+      "title": "Dose Adjustments",
+      "content": "For patients with mild hepatic impairment (Child-Pugh A), no dose adjustment is required. For moderate hepatic impairment (Child-Pugh B), reduce starting dose to 5mg once daily. NeuroCalm is not recommended in severe hepatic impairment (Child-Pugh C).",
+      "source": "NeuroCalm Prescribing Information, Section 2.3"
+    },
+    {
+      "id": "nc-004",
+      "category": "side_effects",
+      "title": "Common Side Effects",
+      "content": "The most common adverse reactions (incidence ≥5%) include: drowsiness (12%), dry mouth (9%), dizziness (7%), mild nausea (6%), headache (5%), and fatigue (5%). These typically manifest within the first 2 weeks and often resolve by week 4.",
+      "source": "NeuroCalm Safety Data, Table 1"
+    },
+    {
+      "id": "nc-005",
+      "category": "side_effects",
+      "title": "Serious Side Effects",
+      "content": "Serious adverse reactions are uncommon (<1%) but include: serotonin syndrome (if combined with serotonergic drugs), severe allergic reactions (anaphylaxis), and suicidal ideation (black box warning, consistent with all antidepressant-class medications).",
+      "source": "NeuroCalm Safety Data, Section 5.1"
+    },
+    {
+      "id": "nc-006",
+      "category": "contraindications",
+      "title": "Contraindications",
+      "content": "NeuroCalm is contraindicated in patients taking monoamine oxidase inhibitors (MAOIs) or who have taken MAOIs within the past 14 days. Also contraindicated in patients with known hypersensitivity to calmisetinib or any excipient. Not for use during pregnancy (Category X) or breastfeeding.",
+      "source": "NeuroCalm Prescribing Information, Section 4"
+    },
+    {
+      "id": "nc-007",
+      "category": "interactions",
+      "title": "Drug Interactions",
+      "content": "Major interactions: MAO inhibitors (contraindicated, 14-day washout required), pimozide (contraindicated), thioridazine (contraindicated). Moderate interactions: NSAIDs and anticoagulants (increased bleeding risk), tramadol (increased seizure risk), triptans (serotonin syndrome risk). NeuroCalm inhibits CYP2D6 moderately — consider dose adjustment for CYP2D6 substrates with narrow therapeutic windows.",
+      "source": "NeuroCalm Drug Interactions Guide"
+    },
+    {
+      "id": "nc-008",
+      "category": "warnings",
+      "title": "Black Box Warning",
+      "content": "ANTIDEPRESSANT INCREASED RISK OF SUICIDALITY: NeuroCalm, like other antidepressant medications, carries a black box warning for increased risk of suicidal thinking and behavior in children, adolescents, and young adults (ages 18-24). Patients should be monitored closely for clinical worsening and emergence of suicidal thoughts, especially during the initial months of therapy or when doses are changed.",
+      "source": "NeuroCalm Prescribing Information, Boxed Warning"
+    },
+    {
+      "id": "nc-009",
+      "category": "emergency",
+      "title": "When to Seek Emergency Care",
+      "content": "Patients should seek immediate emergency medical attention if they experience: signs of serotonin syndrome (agitation, hallucinations, rapid heart rate, fever, muscle stiffness), severe allergic reaction (difficulty breathing, swelling of face/throat, severe rash), suicidal thoughts or self-harm urges, seizures, or unusual bleeding/bruising. Call 911 for any life-threatening symptoms.",
+      "source": "NeuroCalm Patient Information, Emergency Section"
+    },
+    {
+      "id": "nc-010",
+      "category": "lifestyle",
+      "title": "Driving and Machinery",
+      "content": "NeuroCalm may cause drowsiness and dizziness. Patients should not drive, operate heavy machinery, or perform hazardous activities until they know how NeuroCalm affects them. Alcohol should be avoided as it may increase drowsiness.",
+      "source": "NeuroCalm Patient Information, Lifestyle"
+    },
+    {
+      "id": "nc-011",
+      "category": "lifestyle",
+      "title": "Pregnancy and Breastfeeding",
+      "content": "NeuroCalm is classified as Pregnancy Category X. It must not be used during pregnancy. Women of childbearing potential should use effective contraception during treatment and for 7 days after discontinuation. NeuroCalm is excreted in breast milk — breastfeeding is not recommended during treatment.",
+      "source": "NeuroCalm Prescribing Information, Section 8.1"
+    },
+    {
+      "id": "nc-012",
+      "category": "storage",
+      "title": "Storage and Handling",
+      "content": "Store NeuroCalm at controlled room temperature (20°C to 25°C / 68°F to 77°F). Protect from moisture and light. Keep in original blister packaging until time of use. Discard any unused tablets 90 days after opening the bottle.",
+      "source": "NeuroCalm Prescribing Information, Section 16"
+    },
+    {
+      "id": "nc-013",
+      "category": "pharmacology",
+      "title": "Mechanism of Action",
+      "content": "NeuroCalm (calmisetinib) is a selective serotonin reuptake modulator with additional sigma-1 receptor agonist activity. Unlike traditional SSRIs, it preferentially modulates serotonin in the prefrontal cortex and limbic system, which may account for its favorable side effect profile. Onset of therapeutic effect is typically 2-4 weeks.",
+      "source": "NeuroCalm Clinical Pharmacology, Section 12.1"
+    },
+    {
+      "id": "nc-014",
+      "category": "pharmacology",
+      "title": "Pharmacokinetics",
+      "content": "Calmisetinib reaches peak plasma concentration (Tmax) in 4-6 hours. Half-life is approximately 24 hours, supporting once-daily dosing. It is 85% protein bound. Metabolism occurs primarily via CYP2D6 and CYP3A4. Excretion is 60% renal, 30% fecal. Steady state is reached within 7 days.",
+      "source": "NeuroCalm Clinical Pharmacology, Section 12.3"
+    },
+    {
+      "id": "nc-015",
+      "category": "cost",
+      "title": "Pricing and Insurance",
+      "content": "The list price for NeuroCalm (30 tablets, 10mg) is approximately $340/month without insurance. Most major insurance plans cover NeuroCalm with a typical copay of $25-75 for brand-name medications. A patient assistance program is available for eligible uninsured or underinsured patients. Generic calmisetinib is not yet available.",
+      "source": "NeuroCalm Commercial Information"
+    },
+    {
+      "id": "nc-016",
+      "category": "monitoring",
+      "title": "Monitoring Requirements",
+      "content": "Baseline monitoring: blood pressure, heart rate, hepatic function panel. Follow-up: reassess at 2 weeks, 4 weeks, 8 weeks, and then quarterly. Monitor for suicidality at each visit using the Columbia Suicide Severity Rating Scale (C-SSRS). Discontinue gradually over at least 2 weeks to avoid discontinuation syndrome.",
+      "source": "NeuroCalm Prescribing Information, Section 14"
+    },
+    {
+      "id": "nc-017",
+      "category": "overdose",
+      "title": "Overdose Information",
+      "content": "In clinical trials, isolated overdoses of up to 100mg of NeuroCalm have been reported without fatalities. Symptoms of overdose may include: excessive drowsiness, nausea, vomiting, tachycardia, and in severe cases, seizures. There is no specific antidote. Treatment is supportive: activated charcoal if presented within 1 hour, monitoring in a medical facility, benzodiazepines for seizures.",
+      "source": "NeuroCalm Prescribing Information, Section 10"
+    },
+    {
+      "id": "nc-018",
+      "category": "regulatory",
+      "title": "Regulatory Status",
+      "content": "NeuroCalm is a prescription-only medication (Schedule IV controlled substance in select jurisdictions due to sigma-1 receptor activity). It requires a valid prescription from a licensed healthcare provider. Not available over-the-counter or through online pharmacies without a valid prescription.",
+      "source": "NeuroCalm Regulatory Information"
+    },
+    {
+      "id": "nc-019",
+      "category": "counseling",
+      "title": "Patient Counseling Points",
+      "content": "Key points to discuss with patients: 1) Take exactly as prescribed, do not increase dose without consulting your doctor. 2) It may take 2-4 weeks to feel the full benefit. 3) Do not stop abruptly — taper over at least 2 weeks. 4) Avoid alcohol while taking NeuroCalm. 5) Report any unusual mood changes, agitation, or suicidal thoughts immediately. 6) NeuroCalm may cause drowsiness — be cautious when driving.",
+      "source": "NeuroCalm Patient Counseling Guide"
+    },
+    {
+      "id": "nc-020",
+      "category": "faq",
+      "title": "Frequently Asked Questions",
+      "content": "Q: Can I take NeuroCalm with my other anxiety medication? A: NeuroCalm should not be combined with other serotonergic medications without physician guidance due to serotonin syndrome risk. Q: How long before I feel better? A: Most patients notice improvement within 2-4 weeks, with full therapeutic effect by 6-8 weeks. Q: Can I drink alcohol? A: Alcohol is not recommended as it may increase drowsiness and impair judgment.",
+      "source": "NeuroCalm Patient FAQ"
+    }
+  ]
+}

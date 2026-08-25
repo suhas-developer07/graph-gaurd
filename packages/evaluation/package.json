@@ -9,16 +9,43 @@
     ".": {
       "import": "./dist/index.js",
       "types": "./dist/index.d.ts"
+    },
+    "./evaluators": {
+      "import": "./dist/evaluators/index.js",
+      "types": "./dist/evaluators/index.d.ts"
+    },
+    "./scoring": {
+      "import": "./dist/scoring.js",
+      "types": "./dist/scoring.d.ts"
+    },
+    "./runner": {
+      "import": "./dist/runner.js",
+      "types": "./dist/runner.d.ts"
+    },
+    "./kb-loader": {
+      "import": "./dist/kb-loader.js",
+      "types": "./dist/kb-loader.d.ts"
+    },
+    "./test-generator": {
+      "import": "./dist/test-generator.js",
+      "types": "./dist/test-generator.d.ts"
     }
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --noEmit",
     "typecheck": "tsc --noEmit",
-    "dev": "tsc --watch",
-    "test": "vitest run"
+    "test": "vitest run --reporter=verbose",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@graphguard/domain": "workspace:*",
+    "@graphguard/llm": "workspace:*",
+    "@graphguard/db": "workspace:*",
+    "zod": "^3.23.0"
   },
   "devDependencies": {
-    "typescript": "^5.6.0",
-    "vitest": "^2.1.0"
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.2.1"
   }
 }

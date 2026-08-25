@@ -26,7 +26,7 @@ export {
 } from "./context";
 export { executeGraph } from "./runtime";
 export { validateNodeConfig } from "./node-configs";
-export { getKnowledgeBase, PHARMA_KNOWLEDGE_BASE } from "./knowledge-base";
+export { keywordSearch, vectorSearch, retrieveKnowledge } from "./knowledge-base";
 export {
   createExampleGraph,
   createInvalidGraph,
