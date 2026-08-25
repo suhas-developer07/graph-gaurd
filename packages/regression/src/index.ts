@@ -63,3 +63,28 @@ export {
   runAnalysis,
   runReleaseGate,
 } from "./release-gate";
+
+// ─── Proposals ──────────────────────────────────────────────────────────────
+export type {
+  Proposal,
+  ProposalStatus,
+  ProposalChangeType,
+  ProposalEvaluation,
+  CreateProposalInput,
+  ProposalGenerationContext,
+  GeneratedProposal,
+  RankingConfig,
+} from "./proposal-types";
+
+export { DEFAULT_RANKING_CONFIG } from "./proposal-types";
+
+export {
+  generateProposal,
+  buildGenerationContext,
+} from "./proposal-generator";
+
+export {
+  validateProposal,
+  validateCanary,
+  rankProposals,
+} from "./proposal-validator";

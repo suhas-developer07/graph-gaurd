@@ -26,6 +26,10 @@ async function main() {
   const { registerRegressionRoutes } = await import("./routes/regressions");
   await registerRegressionRoutes(app);
 
+  // Register proposal routes
+  const { registerProposalRoutes } = await import("./routes/proposals");
+  await registerProposalRoutes(app);
+
   // Health check - process is alive
   app.get("/health", async (_request, reply) => {
     return reply.status(200).send({
