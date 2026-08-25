@@ -13,6 +13,9 @@
     "@graphguard/config": "workspace:*",
     "@graphguard/db": "workspace:*",
     "@graphguard/observability": "workspace:*",
+    "@graphguard/queue": "workspace:*",
+    "bullmq": "^5.30.0",
+    "ioredis": "^5.4.0",
     "redis": "^4.7.0"
   },
   "devDependencies": {

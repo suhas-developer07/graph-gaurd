@@ -11,6 +11,10 @@ const envSchema = z.object({
   GEMINI_API_KEY: z.string().min(1, "GEMINI_API_KEY is required"),
   NODE_ENV: z.enum(["development", "production", "test"]).default("development"),
   PORT: z.coerce.number().int().positive().default(4000),
+  // Phase 6: optional auth token for mutation routes
+  API_AUTH_TOKEN: z.string().optional(),
+  // Phase 6: OpenTelemetry exporter
+  OTEL_EXPORTER: z.enum(["console", "otlp"]).default("console"),
 });
 
 export type Env = z.infer<typeof envSchema>;

@@ -14,6 +14,7 @@
     "@graphguard/db": "workspace:*",
     "@graphguard/evaluation": "workspace:*",
     "@graphguard/observability": "workspace:*",
+    "@graphguard/queue": "workspace:*",
     "@graphguard/regression": "workspace:*",
     "fastify": "^5.1.0",
     "@fastify/cors": "^10.0.0",
